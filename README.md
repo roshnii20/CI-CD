@@ -1,2 +1,10 @@
 # CI-CD
-Implementing end to end CI/CD Pipeline using AWS pipeline services like CodeCommit, CodeBuild, CodeDeploy and CodePipeline
+Implementing an end to end Continuous Integration and Continuous Delivery (CI/CD) Pipeline using AWS pipeline services like CodeCommit, CodeBuild, CodeDeploy and CodePipeline
+Here we will need following two things to implement our Pipeline:
+• AWS Account
+• Virtual Machine
+
+Let us first understand what is a CI/CD Pipeline:
+
+Stages in a Pipeline:
+
