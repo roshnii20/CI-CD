@@ -4,7 +4,7 @@ Implementing an end to end Continuous Integration and Continuous Delivery (CI/CD
 Let us first understand what is a CI/CD Pipeline:
 
 Stages in a Pipeline:
-![Capture](https://github.com/roshnii20/CI-CD/blob/main/Capture.PNG)
+![Capture](https://github.com/roshnii20/CI-CD/blob/main/Pictures/Capture.PNG)
 
 Continuous Integration (CI):
 
@@ -19,11 +19,10 @@ Here in this exercise, we will implement Continuous Integration and Continuous D
 
 We will need following two things to implement our Pipeline:
 • AWS Account
-
-• Virtual Machine
+• Virtual Machine ( Install Git on your local machine)
 
 PART 1: CodeCommit
-![CodeCommit](https://github.com/roshnii20/CI-CD/blob/main/CodeCommit.PNG)
+![CodeCommit](https://github.com/roshnii20/CI-CD/blob/main/Pictures/CodeCommit.PNG)
 
 CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. CodeCommit eliminates the need for you to manage your own source control system or worry about scaling its infrastructure. You can use CodeCommit to store anything from code to binaries. It supports the standard functionality of Git, so it works seamlessly with your existing Git-based tools.
 
@@ -38,6 +37,29 @@ STEP 2: We will create an Amazon CloudWatch Events to detect and react to pipeli
 • Amazon SQS
 • Platform application endpoint
 • SMS
+
+STEP 3: Create a new repository on CodeCommit via console and connect it to your Virtual Machine using HTTPS
+
+
+PART 2: CodeBuild
+![CodeBuild](https://github.com/roshnii20/CI-CD/blob/main/Pictures/CodeBuild.PNG)
+
+AWS CodeBuild is a fully managed build service in the cloud. CodeBuild compiles your source code, runs unit tests, and produces artifacts that are ready to deploy. CodeBuild eliminates the need to provision, manage, and scale your own build servers. It provides prepackaged build environments for popular programming languages and build tools such as Apache Maven, Gradle, and more.
+
+STEP 1: We will create an S3 bucket to store artifacts of CodeBuild
+
+
+STEP 2: Create a buildspec.yml and appspec.yml on your Virtual Machine and push it to your CodeCommit repository from your Virtual Machine
+
+A buildspec is a collection of build commands and related settings, in YAML format, that CodeBuild uses to run a build.
+An appspec is a YAML -formatted or JSON-formatted file used by CodeDeploy to manage a deployment.
+
+*I have added both of these files in this repository* 
+
+STEP 3: Create a new build 
+
+
+
 
 
 
