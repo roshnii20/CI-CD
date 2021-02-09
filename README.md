@@ -74,6 +74,7 @@ For configuring Artifacts, select the S3 bucket you created earlier and name the
 STEP 4: Start the build and select build type as single build
 
 Successful build output:
+
 ![CB-5](https://github.com/roshnii20/CI-CD/blob/main/Pictures/CB-5.png)
 
 *If you run into any error while building, check the "phase details" to get detailed output*
