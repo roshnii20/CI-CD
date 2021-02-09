@@ -111,14 +111,16 @@ Successful output:
 You will also get notifications from SNS as soon as the the creation of pipeline is initiated
 
 Click on the application URL and you will get your output as:
+
 ![OP-1](https://github.com/roshnii20/CI-CD/blob/main/Pictures/OP-1.png)
 
 
-TRIGEERING PIPELINE:
+TRIGGERING PIPELINE:
 
 Now to understand the working better, let us make some change to our index.html and push it to our repository.
 
 Succesful output:
+
 ![OP-2](https://github.com/roshnii20/CI-CD/blob/main/Pictures/OP-2.png)
 
 As soon as you push the changes made, it will trigger the pipeline and you will start recieving notifications from SNS again.
