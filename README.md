@@ -52,10 +52,9 @@ STEP 1: We will create an S3 bucket to store artifacts of CodeBuild
 STEP 2: Create a buildspec.yml, appspec.yml, and index.html on your Virtual Machine and push it to your CodeCommit repository from your Virtual Machine
 
 A buildspec is a collection of build commands and related settings, in YAML format, that CodeBuild uses to run a build.
-An appspec is a YAML-formatted or JSON-formatted file used by CodeDeploy to manage a deployment.
 Index.html is an index file that will show up a webpage when our pipeline is executed successfully
 
-*I have added all these files in this repository* 
+*I have added both these files in this repository* 
 
 STEP 3: Create a new build 
 
@@ -91,8 +90,6 @@ STEP 1: Create an Elastic Beanstalk application with PHP as your platform (Selec
 
 Successful output:
 ![CD-1](https://github.com/roshnii20/CI-CD/blob/main/Pictures/CD-1.png)
-
-*If you run into an error which does not show your health state as "ok" then check your appspec.yml file)
 
 
 PART 4: CodePipeline
