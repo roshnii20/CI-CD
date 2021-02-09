@@ -90,6 +90,7 @@ In this exercise, we will create an Elastic Beanstalk application which will be 
 STEP 1: Create an Elastic Beanstalk application with PHP as your platform (Select defaults for platform branch & version) and use choose Upload source code origin as Public S3 URL and copy the URL of your zip file created earlier on S3 and add here
 
 Successful output:
+
 ![CD-1](https://github.com/roshnii20/CI-CD/blob/main/Pictures/CD-1.png)
 
 
