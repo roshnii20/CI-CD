@@ -7,4 +7,5 @@ Here we will need following two things to implement our Pipeline:
 Let us first understand what is a CI/CD Pipeline:
 
 Stages in a Pipeline:
+![Capture](https://github.com/roshnii20/CI-CD/blob/main/Capture.PNG)
 
