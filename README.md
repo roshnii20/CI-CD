@@ -49,7 +49,7 @@ AWS CodeBuild is a fully managed build service in the cloud. CodeBuild compiles 
 STEP 1: We will create an S3 bucket to store artifacts of CodeBuild
 
 
-STEP 2: Create a buildspec.yml, appspec.yml, and index.html on your Virtual Machine and push it to your CodeCommit repository from your Virtual Machine
+STEP 2: Create a buildspec.yml and index.html on your Virtual Machine and push it to your CodeCommit repository from your Virtual Machine
 
 A buildspec is a collection of build commands and related settings, in YAML format, that CodeBuild uses to run a build.
 Index.html is an index file that will show up a webpage when our pipeline is executed successfully
